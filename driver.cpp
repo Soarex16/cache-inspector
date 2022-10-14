@@ -3,7 +3,7 @@
 #include "detectors.hpp"
 
 int main() {
-    auto cache_stats = naive_cache_size_detector();
+    auto cache_stats = robust_detector();
     std::cout <<
         "cache size\t" << cache_stats.cache_size << '\n' <<
         "associativity\t" << cache_stats.associativity << '\n' <<

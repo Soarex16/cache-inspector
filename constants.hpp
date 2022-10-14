@@ -4,7 +4,7 @@ const int KB = 1024;
 const int MB = 1024 * KB;
 
 const long read_count = 1'000'000;
-const long repeats = 200;
+const long repeats = 2;
 
 const long min_cache_size = 1 * KB;
 const long max_cache_size = 256 * KB;
